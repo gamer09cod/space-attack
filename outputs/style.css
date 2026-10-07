@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  background: radial-gradient(ellipse at top, #131d36, #050812 70%);
+  color: #d8f6ff;
+  font-family: "Courier New", monospace;
+}
+
+main { width: min(100%, 900px, calc((100svh - 96px) * 1.5)); }
+
+h1 {
+  margin: 0 0 14px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #9bb7ce;
+  text-shadow: 0 0 18px #39bfff80;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #070c18;
+  border: 1px solid #426889;
+  border-radius: 8px;
+  box-shadow: 0 16px 60px #0008, 0 0 32px #1a88c522;
+}
